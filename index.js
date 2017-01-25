@@ -8,7 +8,7 @@ function readManifest(fs, search, callback) {
 		var file = path.join(dir, 'manifest.json');
 		fs.readFile(file, function(err, data) {
 			if(err) {
-				readAppInfo(fs, search, callback);
+				readManifest(fs, search, callback);
 			} else {
 				var obj;
 				try {
