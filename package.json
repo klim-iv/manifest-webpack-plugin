@@ -1,0 +1,20 @@
+{
+  "name": "manifest-webpack-plugin",
+  "version": "0.0.1",
+  "description": "Webpack plugin that automatically copy manifest.json",
+  "main": "index.js",
+  "author": "Igor <klim.iv@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klim-iv/manifest-webpack-plugin.git"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/klim-iv/manifest-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/klim-iv/manifest-webpack-plugin#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
